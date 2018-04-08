@@ -48,21 +48,21 @@
   max-width: 620px
   padding: 0 20px
   margin: 50px auto
-  font-size: 24px
+  font-size: 27px
   text-align: center
   font-weight: 300
 
 
 
 .skill-lockup
-  max-width: 540px
+  max-width: 600px
   margin: 100px auto
   color: #999
   +clearfix
 
 
   .skill-unit
-    width: 270px
+    width: 300px
     float: left
 
   .skill-icons
@@ -79,10 +79,10 @@
       &:after
         content: ''
         display: block
-        +size(10px)
+        +size(12px)
         background: #fff
         border-radius: 50%
-        margin: 2px
+        margin: 1px
 
     @for $i from 1 through 10
       &.skill-#{$i} span:nth-child(n+#{$i+1})

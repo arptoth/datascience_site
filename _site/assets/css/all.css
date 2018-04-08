@@ -493,7 +493,8 @@ td, th {
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
   color: #333;
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 30px; }
 
 .gigantic {
   font-size: 110px;
@@ -510,7 +511,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.14; }
 
 .bigger, h3 {
-  font-size: 26px;
+  font-size: 30px;
   line-height: 1.38; }
 
 .big, h4 {
@@ -518,7 +519,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.38; }
 
 .small, small {
-  font-size: 10px;
+  font-size: 20px;
   line-height: 1.2; }
 
 p {
@@ -540,20 +541,20 @@ hr {
 /* Links
  * ------------------------------------	 */
 a {
-  color: #c99065;
+  color: #529cce;
   text-decoration: none;
   outline: 0; }
 
 a:hover, a:focus {
-  color: #e3c6b1; }
+  color: #a1c9e5; }
 
 /* Selection colors (easy to forget)
  * ------------------------------------	 */
 ::selection {
-  background: #f1e2d6; }
+  background: #c9e0f0; }
 
 ::-moz-selection {
-  background: #f1e2d6; }
+  background: #c9e0f0; }
 
 img::selection {
   background: transparent; }
@@ -562,13 +563,13 @@ img::-moz-selection {
   background: transparent; }
 
 body {
-  -webkit-tap-highlight-color: #f1e2d6; }
+  -webkit-tap-highlight-color: #c9e0f0; }
 
 /* Basic Styles
  * ------------------------------------	 */
 body {
   background: #fff;
-  font-size: 14px;
+  font-size: 30px;
   line-height: 1.6;
   font-family: "Open Sans", sans-serif;
   color: #666;
@@ -580,9 +581,11 @@ svg {
   width: 100%; }
 
 h3 {
-  color: #e1c285;
+  color: #739de5;
   text-align: center;
-  padding: 100px 0 30px; }
+  padding: 100px 0 30px;
+  color: #000;
+  font-size: 30px; }
 
 fieldset {
   padding: 0;
@@ -593,10 +596,10 @@ fieldset {
   h3 {
     padding: 50px 0 50px; } }
 section:nth-child(odd) {
-  background: #e5eaee;
+  background: #fff;
   padding-bottom: 100px; }
   section:nth-child(odd) h3 {
-    color: #d7ae5c; }
+    color: #487edd; }
 
 h3, header nav a, header .kicker, footer .lockup .content-wrap a {
   font-size: 14px;
@@ -611,8 +614,9 @@ header, footer {
 
 header {
   background-position: 30px 20px, 50% 50%;
-  background-image: url(../img/logo.svg), url(../img/hero-bg.jpg);
-  padding-bottom: 50px; }
+  background-image: url(../img/), url(../img/hero-bg.jpg);
+  padding-bottom: 200px;
+  padding-top: 200px; }
   header .logo {
     height: 50px;
     width: 50px;
@@ -637,8 +641,7 @@ header {
     text-transform: uppercase;
     letter-spacing: 0.05em;
     margin-bottom: 20px;
-    clear: both;
-    padding-top: 100px; }
+    clear: both; }
     header h1 span {
       display: inline-block;
       padding: 0.2em 0.5em;
@@ -647,7 +650,8 @@ header {
     text-align: center;
     letter-spacing: 0.05em;
     color: white;
-    line-height: 1; }
+    line-height: 1;
+    font-size: 20px; }
 
 @media (max-width: 640px) {
   header {
@@ -659,7 +663,7 @@ header {
     header h1 {
       padding-top: 0px; } }
 footer {
-  background-image: url(../img/logo.svg), url(../img/hero-bg.jpg); }
+  background-image: url(../img/), url(../img/hero-bg.jpg); }
   footer .lockup {
     padding: 50px 30px; }
     footer .lockup:after {
@@ -714,10 +718,10 @@ footer {
   .face-lockup [class^="icon-"] {
     height: 100px;
     width: 100px;
-    background: #e5eaee;
+    background: #fff;
     border-radius: 50%; }
     .face-lockup [class^="icon-"] path {
-      fill: #c99065; }
+      fill: #529cce; }
 
 @media screen and (max-width: 650px) {
   .face-lockup {
@@ -736,12 +740,12 @@ footer {
   max-width: 620px;
   padding: 0 20px;
   margin: 50px auto;
-  font-size: 24px;
+  font-size: 27px;
   text-align: center;
   font-weight: 300; }
 
 .skill-lockup {
-  max-width: 540px;
+  max-width: 600px;
   margin: 100px auto;
   color: #999; }
   .skill-lockup:after {
@@ -749,7 +753,7 @@ footer {
     display: table;
     clear: both; }
   .skill-lockup .skill-unit {
-    width: 270px;
+    width: 300px;
     float: left; }
   .skill-lockup .skill-icons {
     font-size: 0;
@@ -758,20 +762,20 @@ footer {
       display: inline-block;
       height: 14px;
       width: 14px;
-      background-color: #c99065;
+      background-color: #529cce;
       margin-right: 8px;
       border-radius: 50%; }
       .skill-lockup .skill-icons span:after {
         content: "";
         display: block;
-        height: 10px;
-        width: 10px;
+        height: 12px;
+        width: 12px;
         background: #fff;
         border-radius: 50%;
-        margin: 2px; }
+        margin: 1px; }
 
 .skill-lockup .skill-icons.skill-1 span:nth-child(n+2), .skill-lockup .skill-icons.skill-2 span:nth-child(n+3), .skill-lockup .skill-icons.skill-3 span:nth-child(n+4), .skill-lockup .skill-icons.skill-4 span:nth-child(n+5), .skill-lockup .skill-icons.skill-5 span:nth-child(n+6), .skill-lockup .skill-icons.skill-6 span:nth-child(n+7), .skill-lockup .skill-icons.skill-7 span:nth-child(n+8), .skill-lockup .skill-icons.skill-8 span:nth-child(n+9), .skill-lockup .skill-icons.skill-9 span:nth-child(n+10), .skill-lockup .skill-icons.skill-10 span:nth-child(n+11) {
-  background: #e5eaee; }
+  background: #fff; }
 
 @media screen and (max-width: 541px) {
   .skill-lockup {
@@ -888,7 +892,7 @@ footer {
       display: -moz-flex;
       display: -ms-flexbox;
       display: flex;
-      background: rgba(201, 144, 101, 0.9);
+      background: rgba(82, 156, 206, 0.9);
       text-align: center; }
       .thumb-container label .thumb-overlay strong {
         display: block;
@@ -911,7 +915,7 @@ footer {
   position: relative;
   display: none; }
   .work-container h4, .work-container noscript h4 {
-    color: #c99065;
+    color: #529cce;
     font-weight: 300;
     text-transform: uppercase;
     font-size: 28px;
@@ -1018,7 +1022,7 @@ footer {
     opacity: 0.5; }
     .clients-logos .client-logo.active-client {
       opacity: 1;
-      border-bottom: 4px solid #c99065; }
+      border-bottom: 4px solid #529cce; }
 
 .client-quote-mark {
   position: absolute;
@@ -1029,7 +1033,7 @@ footer {
   z-index: -1;
   opacity: 0.3; }
   .client-quote-mark path {
-    fill: #c99065; }
+    fill: #529cce; }
 
 .client-controls {
   position: absolute;
@@ -1044,7 +1048,7 @@ footer {
     margin-top: -20px;
     cursor: pointer; }
     .client-controls > div path {
-      fill: #c99065; }
+      fill: #529cce; }
   .client-controls .client-control-next {
     position: absolute;
     top: 50%;
@@ -1064,11 +1068,11 @@ footer {
     height: 16px;
     width: 16px;
     border-radius: 50%;
-    border: solid 2px #e5eaee;
+    border: solid 2px #fff;
     margin: 0px 10px;
     cursor: pointer; }
     .clients-mobile-nav span.active-client {
-      border-color: #c99065; }
+      border-color: #529cce; }
 
 @media (max-width: 850px) {
   .clients-logos {
@@ -1135,11 +1139,11 @@ footer {
   flex-wrap: wrap; }
   .social-links a {
     display: block;
-    border: 2px solid #c99065;
+    border: 2px solid #529cce;
     height: 50px;
     width: 50px;
     line-height: 50px;
-    color: #c99065;
+    color: #529cce;
     border-radius: 50%;
     font-size: 28px;
     margin: 20px;
@@ -1152,7 +1156,7 @@ footer {
       right: 0px;
       bottom: 0px;
       left: 0px;
-      border: 2px solid #c99065;
+      border: 2px solid #529cce;
       border-radius: 50%;
       margin: -2px;
       opacity: 1;
@@ -1170,7 +1174,7 @@ footer {
 .bar {
   width: 250px;
   height: 0px;
-  border-top: 4px solid #c99065;
+  border-top: 4px solid #529cce;
   margin: 0px auto 50px; }
 
 .biglink {
@@ -1186,7 +1190,7 @@ form {
   margin: 0 auto 100px;
   padding: 0 20px; }
   form input, form textarea {
-    border: 3px solid #c99065;
+    border: 3px solid #529cce;
     width: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -1198,20 +1202,20 @@ form {
     font-size: 16px; }
     form input:focus, form textarea:focus {
       outline: none;
-      border-color: #e1c285; }
+      border-color: #739de5; }
   form textarea {
     height: 10em;
     resize: none; }
   form .submit-wrap {
     text-align: right; }
   form [type="submit"] {
-    background: #c99065;
+    background: #529cce;
     color: white;
     font-size: 18px;
     text-transform: uppercase;
     width: 33%; }
     form [type="submit"]:hover {
-      background: #e1c285; }
+      background: #739de5; }
   form .contact-info-group label {
     width: 50%;
     float: left;
@@ -1238,7 +1242,7 @@ form {
   form [type="submit"] {
     width: 100%; } }
 .form-success {
-  background: #e5eaee;
+  background: #fff;
   text-align: center; }
   .form-success p {
     font-size: 18px; }

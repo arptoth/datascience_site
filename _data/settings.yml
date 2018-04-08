@@ -2,7 +2,7 @@
 # General Site Settings
 
 title: Arpad Toth
-description: Data scientist // Testing Ninja // Dance champion
+description: Data scientist | Testing Ninja | Dance champion
 email: hello@arptoth.com
 
 # NOTE: The Logo and Background image are defined in the all.sass document.
@@ -46,14 +46,12 @@ blurb: >
 
 
 skills:
-- {name: Communication, value: '9'}
-- {name: Organization, value: '7'}
-- {name: Learning, value: '10'}
-- {name: Teaching, value: '6'}
-- {name: Planning, value: '7'}
-- {name: Visual Design, value: '5'}
-- {name: UX Design, value: '8'}
-- {name: Programming, value: '6'}
+- {name: R, value: '9'}
+- {name: Python, value: '6'}
+- {name: Deep Learning, value: '6'}
+- {name: Reporting, value: '9'}
+- {name: Machine Learning, value: '7'}
+- {name: SQL, value: '8'}
 
 #-------------------------------
 # Work Section
