@@ -1,9 +1,9 @@
 .face-lockup
   max-width: 780px
-  +display(flex)
-  margin: 0 auto
+  margin: auto
   +align-items(center)
   +justify-content(space-between)
+  text-align: center
 
   .face-img
     border-radius: 50%
@@ -11,7 +11,8 @@
     background-position: center
     background-image: url(../img/#{$avatar-path})
     +size(200px)
-    +order(3)
+    display: inline-block
+
 
   [class^="icon-"]
     +size(100px)
@@ -21,14 +22,6 @@
     path
       fill: $accent
 
-    &.icon-pencil
-      +order(1)
-    &.icon-mouse
-      +order(2)
-    &.icon-browser
-      +order(4)
-    &.icon-video
-      +order(5)
 
 @media screen and (max-width: 650px)
   .face-lockup

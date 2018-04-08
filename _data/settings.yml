@@ -39,10 +39,10 @@ seo:
 # NOTE: The avatar is defined in the all.sass document.
 
 blurb: >
-  **Hey, I am Arpi.** I make money for you from your data!.
-  Most of the things he makes are [digital interfaces](http://travisneilson.com){:target="_blank"},
-  but he also puts effort into crafting [next-level beats](http://soundcloud.com/travis-neilson){:target="_blank"}
-  and [YouTube videos](http://youtube.com/user/devtipsfordesigners){:target="_blank"} about making codes happen.
+  **Hey, I am Arpi.**
+  I make money for you from your data!
+  Checkout my reports at [Kaggle](http://travisneilson.com){:target="_blank"}.
+  and latest presentation on [YouTube](http://youtube.com/user/devtipsfordesigners){:target="_blank"}.
 
 
 skills:
@@ -101,11 +101,10 @@ clients:
 # Contact Section
 
 social:
-- {icon: 'twitter', link: 'http://twitter.com/devtipsshow'}
-- {icon: 'dribbble', link: 'https://dribbble.com/travisneilson'}
-- {icon: 'behance', link: 'https://www.behance.net/travisneilson'}
-- {icon: 'youtube', link: 'https://www.youtube.com/DevTipsForDesigners'}
-- {icon: 'linkedin', link: 'http://www.linkedin.com/in/travisneilson/'}
+- {icon: 'twitter', link: 'http://twitter.com/arptoth'}
+- {icon: 'github', link: 'https://github.com/arptoth'}
+- {icon: 'facebook', link: 'https://facebook.com/arptoth'}
+- {icon: 'linkedin', link: 'http://www.linkedin.com/in/totharpad/'}
 
 
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
