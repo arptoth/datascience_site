@@ -14,7 +14,7 @@
 
     &.active-client
       +display(flex)
-      @extend %#{$animation}
+
 
     .client-face
       min-width: 180px
@@ -74,6 +74,7 @@
   +size(60px)
   z-index: -1
   opacity: 0.3
+  display: none
 
   path
     fill: $accent
@@ -143,6 +144,7 @@
 
       .client-quote-mark
         left: 6px
+
 
   .clients-logos
     display: none

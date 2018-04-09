@@ -5,7 +5,7 @@ $(function() {
 	clientStuff();
 
 	$("header h1").fitText(1, { minFontSize: '20px', maxFontSize: '72px' });
-	$(".biglink").fitText(1.5);
+	// $(".biglink").fitText(1.5);
 
 	$('textarea').autosize();
 });
@@ -26,22 +26,7 @@ function smoothScroll (duration) {
 }
 
 
-function workBelt() {
 
-  $(".trigger").remove();
-  $(".return").remove();
-
-  $('.thumb-container label').click(function() {
-    $('.work-belt').addClass("slided");
-    $('.work-container').show();
-  });
-
-  $('.work-return').click(function() {
-    $('.work-belt').removeClass("slided");
-    $('.work-container').hide(800);
-  });
-
-}
 
 
 function  workLoad() {

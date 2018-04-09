@@ -167,7 +167,7 @@ td, th {
   top: 0%;
   overflow: hidden; }
 
-.thumb-container label:hover .thumb-overlay, .clients-belt .client-unit.active-client {
+.thumb-container label:hover .thumb-overlay {
   -webkit-animation: animation 1s linear both;
   animation: animation 1s linear both;
   z-index: 2; }
@@ -1033,7 +1033,8 @@ footer {
   height: 60px;
   width: 60px;
   z-index: -1;
-  opacity: 0.3; }
+  opacity: 0.3;
+  display: none; }
   .client-quote-mark path {
     fill: #529cce; }
 
@@ -1181,7 +1182,7 @@ footer {
 
 .biglink {
   display: inline-block;
-  font-size: 40px;
+  font-size: 25px;
   font-weight: 300;
   line-height: 1;
   width: 90%;
