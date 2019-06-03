@@ -3,15 +3,18 @@
 
 title: Arpad Toth
 description: Data scientist | Testing Ninja | Dance champion
-email: hello@SuperheroData.com
+email: arpad.tot@gmail.com
 
 # NOTE: The Logo and Background image are defined in the all.sass document.
 
 menu:
 - {name: About Me, url: '#about-me'}
+- {name: Video, url: '#video'}
 - {name: Work, url: '#work'}
 - {name: Clients, url: '#clients'}
 - {name: Contact, url: '#contact'}
+
+
 
 #-------------------------------
 # SEO Section
@@ -19,10 +22,9 @@ menu:
 # NOTE: Providing SEO information will make this website more searchable on the internet.
 
 seo:
-  description: 'Provide a description for your website to make it visible to search engines.'
-  rel-author: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
-  rel-publisher: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
-
+  description: 'Arpad Toth is a data scientist. Interesting in almost any fields in deep learning.'
+  rel-author: 'https://twitter.com/arptoth'
+  rel-publisher: https://twitter.com/arptoth
 #-------------------------------
 # Google Analytics Section
 
@@ -31,7 +33,7 @@ seo:
 
 # NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
 
-#google-analytics-ua: UA-XXXXXX-X
+google-analytics-ua: UA-141237577-1
 
 #-------------------------------
 # About Section
@@ -40,18 +42,18 @@ seo:
 
 blurb: >
   **Hey, I am Arpi.**
-  I make money for you from your data!
-  Checkout my reports at [Kaggle](http://travisneilson.com){:target="_blank"}
-  and latest presentation on [YouTube](http://youtube.com/user/devtipsfordesigners){:target="_blank"}! Reach me in [email](mailto:hello@superherodata.com)!
+  I make money for you from data!
+  Checkout my latest reports at [GitHub](http://github.com/arptoth){:target="_blank"}.
+  I am currently **looking for project**!
 
 
 skills:
 - {name: R, value: '9'}
-- {name: Python, value: '6'}
-- {name: Deep Learning, value: '6'}
-- {name: Reporting, value: '9'}
+- {name: Python, value: '7'}
+- {name: Deep Learning, value: '8'}
 - {name: Machine Learning, value: '7'}
-- {name: SQL, value: '8'}
+- {name: SQL, value: '6'}
+- {name: Reporting, value: '9'}
 
 #-------------------------------
 # Work Section
@@ -84,6 +86,7 @@ clients:
 # Contact Section
 
 social:
+- {icon: 'instagram', link: 'http://instagram.com/arptoth'}
 - {icon: 'twitter', link: 'http://twitter.com/arptoth'}
 - {icon: 'github', link: 'https://github.com/arptoth'}
 - {icon: 'facebook', link: 'https://facebook.com/arptoth'}
