@@ -13,33 +13,6 @@
     {{ site.data.settings.blurb | markdownify }}
   </div>
 
-  <h3 id="about-me">Skills</h3>
-  {% if site.data.settings.skills %}
 
-  <div class="skill-lockup">
-
-    {% for skill in site.data.settings.skills %}
-
-      <div class="skill-unit">
-        <div class="skill-label">{{ skill.name }}</div>
-        <div class="skill-icons skill-{{ skill.value }}">
-          {% for i in (1..10) %}
-            <span></span>
-          {% endfor %}
-        </div>
-      </div>
-
-    {% endfor %}
-
-  </div>
-
-  {% endif %}
-
-  <h3 id="about-me">Course work</h3>
-  <div class="blurb">
-    <p>Full data science path at DataCamp</p><br>
-    <p>Siraj Raval 3 month challange</p><br>
-    <p>Full data science path at DataCamp</p><br>
-  </div>
 
 </section>

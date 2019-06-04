@@ -2,7 +2,7 @@
 # General Site Settings
 
 title: Arpad Toth
-description: Data scientist | Testing Ninja | Dance champion
+description: Data scientist | Productivity fan | Dance champion
 email: arpad.tot@gmail.com
 
 # NOTE: The Logo and Background image are defined in the all.sass document.
@@ -10,7 +10,7 @@ email: arpad.tot@gmail.com
 menu:
 - {name: About Me, url: '#about-me'}
 - {name: Video, url: '#video'}
-- {name: Work, url: '#work'}
+- {name: Work, url: '#talk'}
 - {name: Clients, url: '#clients'}
 - {name: Contact, url: '#contact'}
 
@@ -42,8 +42,8 @@ google-analytics-ua: UA-141237577-1
 
 blurb: >
   **Hey, I am Arpi.**
-  I make money for you from data!
-  Checkout my latest reports at [GitHub](http://github.com/arptoth){:target="_blank"}.
+  I make money from data!
+  Checkout my latest reports at [portfolio](#work){:target="#work"}.
   I am currently **looking for project**!
 
 
